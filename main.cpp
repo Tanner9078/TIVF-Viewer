@@ -1,22 +1,22 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include <sstream>
 
 using namespace std;
 
 int main() {
-    std::ifstream fileObject;
     std::cout << "Enter a file to read\n";
     string filename;
     std::cin >> filename;
-    fileObject.open(filename);  // Open image
+    std::ifstream fileObject(filename);
 
-    std::string ImgData;  // The data of the Image will go to this string
-    fileObject>>ImgData;  // Put the data of the iamge into ImgData
-    int len=ImgData.length();  // put the length of Imgdata into a var
+    std::ostringstream ImgData;  // The data of the Image will go to this string
+    fileObject>>ImgData.rdbuf();  // Put the data of the image file into ImgData
+    int len=ImgData.str().length();  // get ImgData as a string and put the length of Imgdata into a var
     int i=0;
     while(i<len) {             // I used a while loop because the forloop won't work for some reason
-        switch(ImgData[i]) {
+        switch(ImgData.str()[i]) { // get the string representation
         case '0':
               cout << "\033[30m\u2587";  // if image has 0. Make a black square
               break;
@@ -44,8 +44,13 @@ int main() {
         case 'D':
               cout << "\033[39m\u2587";  // if image has D. Use the default color
               break;
+        case '\n':
+              break;
         case 'N':
               cout << "\n";  // if image has N. Make a Newline
+              break;
+        default:
+              cerr << "Undefined character!";
         };
         i++;
 
