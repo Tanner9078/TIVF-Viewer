@@ -17,7 +17,7 @@ make all
 TIVF is an file format that can be viewed in the Linux Terminal.
 
 So a TIVF file looks like this:
-`
+```
 RRRRRRRRRRRRRRRN
 RDDDDDDDDDDDDDRN
 RDDDDDDDDDDDDDRN
@@ -25,7 +25,8 @@ RRRRRRRRRRRRRRRN
 RRRRRRRRRRRRRRRN
 RRRRRRRRRRRRRRRN
 RRRR0000000RRRRN
-RRRR0000000RRRR`  
+RRRR0000000RRRR
+```
 It may look confusing. But it really isn't. Every character is either a color or a newline.
 
 Here is a list of colors:
