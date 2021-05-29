@@ -5,10 +5,15 @@
 
 using namespace std;
 
-int main() {
-    std::cout << "Enter a file to read\n";
+int main(int argc, char **argv) {
     string filename;
-    std::cin >> filename;
+    if (argc == 2) {
+        filename = argv[1];
+    }
+    else{
+        std::cout << "Enter a file to read\n";
+        std::cin >> filename;
+    }
     std::ifstream fileObject(filename);
 
     std::ostringstream ImgData;  // The data of the Image will go to this string
