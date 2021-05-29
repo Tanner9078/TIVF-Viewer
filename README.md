@@ -1,5 +1,8 @@
 # TIVF-Reader
 C++ program to read "TIVF" files (forked from Tanner9078)
+
+![tivf-viewer screenshot with mario sample](example.png "example screenshot")
+
 # Build instructions
 ```make```
 # Colors/Index
@@ -12,6 +15,6 @@ B = blue
 M = Magenta
 C = Cyan
 L = Light gray
-D = Use the default color
+D = Default color
 N = Newline
-![tivf-viewer screenshot with mario sample](example.png "example screenshot")
+```
