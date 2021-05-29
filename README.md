@@ -4,7 +4,7 @@ TIVF stands for "**T**erminal **I**mage **V**iewable **F**ile"
 
 ## How do I build this
 ```
-https://github.com/Tanner9078/TIVF-Viewer
+git clone https://github.com/Tanner9078/TIVF-Viewer
 cd TIVF-Viewer
 make all
 ```
