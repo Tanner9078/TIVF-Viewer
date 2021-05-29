@@ -10,7 +10,8 @@ make all
 ```
 
 ## How does a TIVF file work
-TIVF is an file format that can be viewed in the Linux Terminal.  
+TIVF is an file format that can be viewed in the Linux Terminal.
+
 So a TIVF file looks like this:
 `RRRRRRRRRRRRRRRNRDDDDDDDDDDDDDRNRDDDDDDDDDDDDDRNRRRRRRRRRRRRRRRNRRRRRRRRRRRRRRRNRRRRRRRRRRRRRRRNRRRR0000000RRRRNRRRR0000000RRRR`  
 It may look confusing. But it really isn't. Every character is either a color or a newline.
