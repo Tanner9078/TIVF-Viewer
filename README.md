@@ -1,4 +1,12 @@
 # TIVF-Reader
+C++ program to read "TIVF" files (**T**erminal **I**mage **V**iewable **F**ile)"
+
+![tivf-viewer screenshot with mario sample](example.png "example screenshot")
+
+# Build instructions
+```make```
+# Colors/Index
+=======
 This is a program I made to read an image format I made.  
 TIVF stands for "**T**erminal **I**mage **V**iewable **F**ile"
 
@@ -27,5 +35,8 @@ M = Magenta
 C = Cyan
 L = Light gray
 D = Default color
+
+N = New line
+=======
 N = Newline
 ```
