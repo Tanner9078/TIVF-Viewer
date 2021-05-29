@@ -4,12 +4,12 @@ C++ program to read "TIVF" files (**T**erminal **I**mage **V**iewable **F**ile)"
 
 ![tivf-viewer screenshot with mario sample](example.png "example screenshot")
 
-This is a program I made to read an image format I made.  
-TIVF stands for "**T**erminal **I**mage **V**iewable **F**ile"
+This is a program I made to read an image format I made.
+TIVF stands for "**T**erminal **I**mage **V**iewable **F**ile".
 
 ## How do I build this
 
-```
+```sh
 git clone https://github.com/Tanner9078/TIVF-Viewer
 cd TIVF-Viewer
 make all
