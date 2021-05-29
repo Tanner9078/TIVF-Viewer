@@ -19,7 +19,7 @@ int main(int argc, char **argv) {
     std::ostringstream ImgData;  // The data of the Image will go to this string
     fileObject>>ImgData.rdbuf();  // Put the data of the image file into ImgData
     int len=ImgData.str().length();  // get ImgData as a string and put the length of Imgdata into a var
-    for(int i=0, i<len, i++) {
+    for(int i=0; i<len; i++) {
         switch(ImgData.str()[i]) { // get the string representation
         case '0':
               cout << "\033[30m\u2587";  // if image has 0. Make a black square
