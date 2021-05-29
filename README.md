@@ -1,5 +1,5 @@
 # TIVF-Reader
-C++ program to read "TIVF" files (Terminal Image Viewable File)"
+C++ program to read "TIVF" files (**T**erminal **I**mage **V**iewable **F**ile)"
 
 ![tivf-viewer screenshot with mario sample](example.png "example screenshot")
 
