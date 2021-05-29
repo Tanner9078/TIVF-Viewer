@@ -29,3 +29,14 @@ L = Light gray
 D = Default color
 N = Newline
 ```
+# tivfAnimationViewer
+A PowerShell script to view animations using tivf.
+```powershell
+tivfAnimation.ps1 tivfExecutable animationPath\ ft
+# animationPath\ its a directory, must have the \ 
+# ft its how many milliseconds should have beetween frames
+```
+## Example
+```powershell
+.\tivfAnimationViewer.ps1 .\main.exe .\examples\anims\123counter\ 1000
+```
