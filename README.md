@@ -16,5 +16,5 @@ M = Magenta
 C = Cyan
 L = Light gray
 D = Default color
-N = Newline
+N = New line
 ```
