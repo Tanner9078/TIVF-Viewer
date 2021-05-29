@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 FILE *image;
-char c;
+int c;
 
 int main (int argc, char **argv) {
 
