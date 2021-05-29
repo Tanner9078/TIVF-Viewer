@@ -14,3 +14,4 @@ C = Cyan
 L = Light gray
 D = Use the default color
 N = Newline
+![tivf-viewer screenshot with mario sample](example.png "example screenshot")

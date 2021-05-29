@@ -56,7 +56,5 @@ int main(int argc, char **argv) {
         default:
               cerr << "Undefined character!";
         };
-        i++;
-
     }
 }
