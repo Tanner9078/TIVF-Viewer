@@ -53,11 +53,38 @@ int main(int argc, char **argv) {
         case 'N':
             cout << "\n"; // N newline
             break;
+        case 'r':
+            cout << "\033[31m\u2587"; // Red square
+            break;
+        case 'g':
+            cout << "\033[32m\u2587"; // Green square
+            break;
+        case 'o':
+            cout << "\033[33m\u2587"; // Orange square
+            break;
+        case 'b':
+            cout << "\033[34m\u2587"; // Blue square
+            break;
+        case 'm':
+            cout << "\033[35m\u2587"; // Magenta square
+            break;
+        case 'c':
+            cout << "\033[36m\u2587"; // Cyan square
+            break;
+        case 'l':
+            cout << "\033[37m\u2587"; // Light gray square
+            break;
+        case 'd':
+            cout << "\033[39m\u2587"; // Default color
+            break;
+        case 'n':
+            cout << "\n"; // N newline
+            break;
         case '\n': // ignore newlines
             break;
         default:
             cout << "\033[39m\u2587"; // Return to default color
-            cerr << "Undefined character in image!";
+            cerr << "Undefined character in image! \n";
             exit(1); // exit with error
         }
     }
