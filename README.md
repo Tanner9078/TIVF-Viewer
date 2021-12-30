@@ -65,6 +65,7 @@ tivfAnimation.ps1 tivfExecutable animationPath\ ft
 .\tivfAnimationViewer.ps1 .\main.exe .\examples\anims\123counter\ 1000
 ```
 
+# tivfAnimationViewer.ps1 demo video by ussaohelcim
 https://user-images.githubusercontent.com/57050328/120060085-05015700-c02c-11eb-99b0-d5013dee9e3c.mp4
 
 
